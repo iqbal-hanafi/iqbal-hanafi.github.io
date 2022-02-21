@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com) | [Projects](./projects.html)
+[Projects](./projects.html) [Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com)
 
 ## Welcome 👏
 
