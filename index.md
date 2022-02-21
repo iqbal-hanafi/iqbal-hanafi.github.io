@@ -2,9 +2,7 @@
 
 ## Welcome 👏
 
-Hy i'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesia on April 2004 and now I am studying in college majoring in CIVIL ENGINEERING.
-Even though I'm not majoring in IT but I can blend in a little in the program.
-
+Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesia on April 2004 and now I'm studying at a university at UNSULBAR by majoring in CIVIL ENGINEERING, but I like IT but not majoring in IT 😅🥴.
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&layout=compact)](https://ikbal-hanafi.github.io)
 
 #### Donate
