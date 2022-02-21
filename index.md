@@ -6,9 +6,9 @@ layout: default
 
 ## Welcome 👏
 
-Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesia on April 2004 and now I'm studying at a university at West Sulawesi (UNSULBAR) by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT 😅
+Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesia on April 2004 and now I'm studying at a university at West Sulawesi (UNSULBAR) by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT :D
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&layout=compact&theme=shades-of-purple&custom_title=Programing languages ​​I use on my github)](https://ikbal-hanafi.github.io)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&theme=shades-of-purple)](https://ikbal-hanafi.github.io)
 
 ### Donate
 + [Paypal](https://paypal.me/ikbalRdmc)
