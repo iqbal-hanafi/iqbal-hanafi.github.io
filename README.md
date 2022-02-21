@@ -1,6 +1,6 @@
-## Welcome
+## Welcome 😃
 
-[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com)
+[Tools](https://tools.maoundis.com) . [Blog](https://blog.maoundis.com)
 
 
 ### social media
@@ -10,4 +10,4 @@
 
 ### donate
 - [Paypal](https://paypal.me/ikbalRdmc)
-- [BTC](1P9cv66bjFdwpGYFFx9BbC82kGvZA8qMwC)
+- [BTC 1P9cv66bjFdwpGYFFx9BbC82kGvZA8qMwC](https://www.blockchain.com/btc/address/1P9cv66bjFdwpGYFFx9BbC82kGvZA8qMwC)
