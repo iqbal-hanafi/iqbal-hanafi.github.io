@@ -1,7 +1,7 @@
 ## Maoundis
 
 ```
-- [Tools](https://tools.maoundis.com)
-- [Blog](https://blog.maoundis.com)
+[Tools](https://tools.maoundis.com)
+[Blog](https://blog.maoundis.com)
 ```
 
