@@ -1,4 +1,8 @@
-[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com) | [Projects](./projects.md)
+---
+layout: default
+---
+
+[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com) | [Projects](./projects.html)
 
 ## Welcome 👏
 
