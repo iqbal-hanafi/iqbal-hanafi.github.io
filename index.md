@@ -1,10 +1,10 @@
-[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com)
+[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com) | [Projects](/projects.md)
 
 ## Welcome 👏
 
 Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesia on April 2004 and now I'm studying at a university at West Sulawesi (UNSULBAR) by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT 😅🥴.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&layout=compact)](https://ikbal-hanafi.github.io)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&layout=compact&theme=shades-of-purple)](https://ikbal-hanafi.github.io)
 
 #### Donate
 + [Paypal](https://paypal.me/ikbalRdmc)
