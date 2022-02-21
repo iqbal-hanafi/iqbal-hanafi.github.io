@@ -4,7 +4,7 @@ layout: default
 
 [Projects](./projects.html) | [Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com)
 
-# Welcome 👏
+## Welcome 👏
 
 <a href="url"><img src="https://avatars.githubusercontent.com/ikbal-hanafi" height="auto" width="150" style="border-radius:50%"></a>
 
@@ -12,7 +12,7 @@ Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesi
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&layout=compact&theme=shades-of-purple)](https://ikbal-hanafi.github.io)
 
-#### Donate
+### Donate
 + [Paypal](https://paypal.me/ikbalRdmc)
 + [BTC](https://www.blockchain.com/btc/address/1P9cv66bjFdwpGYFFx9BbC82kGvZA8qMwC)
 
