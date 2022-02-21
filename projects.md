@@ -6,7 +6,7 @@ layout: default
 
 ## My little projects ⚙️
 
-> Give a star if you like it
+Give a star if you like it ⭐✨
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=BotFucek)](https://github.com/ikbal-hanafi/BotFucek)
 
