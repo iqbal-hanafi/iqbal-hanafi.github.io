@@ -1,4 +1,4 @@
-[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com) | [Projects](/projects.md)
+[Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com) | [Projects](./projects.md)
 
 ## Welcome 👏
 
