@@ -5,7 +5,7 @@ Even though I'm not majoring in IT but I can blend in a little in the program
 
 [Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikbal-hanafi&layout=compact)](https://github.com/ikbal-hanafi/ikbal-hanafi.github.io)
 
 ---
 
