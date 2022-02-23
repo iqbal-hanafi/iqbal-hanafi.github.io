@@ -13,4 +13,4 @@ Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesi
 ### Donate
 + [Paypal](https://paypal.me/ikbalRdmc)
 
-[Facebook](https://fb.me/Xiuz.Maoundis) | [Instagram](https://instagram.com/ikbal.rdmc__) | [WhatsApp](https://wa.me/+6283138932677)
+[Facebook](https://www.facebook.com/kan.galon.165) | [WhatsApp](https://wa.me/+6283138932677)
