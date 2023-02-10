@@ -12,7 +12,7 @@ Give a star if you like it ⭐✨
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=BotFucek)](https://github.com/ikbal-hanafi/BotFucek)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=Snake)](https://github.com/ikbal-hanafi/Snake)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=AutoSnakeGame)](https://github.com/ikbal-hanafi/AutoSnakeGame)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=ig_tools)](https://github.com/ikbal-hanafi/ig_tools)
 
