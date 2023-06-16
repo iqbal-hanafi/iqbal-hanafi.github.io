@@ -19,3 +19,5 @@ Give a star if you like it ⭐✨
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=MathQuiz)](https://github.com/ikbal-hanafi/MathQuiz)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=Qur-an)](https://github.com/ikbal-hanafi/Qur-an)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ikbal-hanafi&theme=buefy&repo=siakad-absen-notify)](https://github.com/ikbal-hanafi/siakad-absen-notify)
