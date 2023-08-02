@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Projects](./projects.html) | [Tools](https://tools.maoundis.com) | [Blog](https://blog.maoundis.com)
+[Projects](./projects.html) | [Tools](https://tools.scp1337.com) | [Blog](https://blog.scp1337.com)
 
 ## Welcome 👏
 
@@ -14,4 +14,4 @@ Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesi
 + [Paypal](https://paypal.me/ikbalRdmc)
 + Crypto: 0x133757c744ADbbC411A90Ec2BA7CdF6DEBC512E6
 
-[Instagram](https://www.instagram.com/ikbal.rdmc__) | [WhatsApp](https://wa.me/+6283138932677)
+[Instagram](https://www.instagram.com/ikbal.rdmc__)
