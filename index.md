@@ -6,7 +6,7 @@ layout: default
 
 ## Welcome 👏
 
-Hy I'm Muhammad Ikbal H (Maoundis) I was born in Majene, West Sulawesi, Indonesia on April 2004 and now I'm studying at a university at West Sulawesi (UNSULBAR) by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT :D
+Hy I'm Muhammad Iqbal Hanafi I was born in Majene, West Sulawesi, Indonesia on April 2004 and now I'm studying at a university at West Sulawesi (UNSULBAR) by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT :D
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=scp1337&theme=coder&layout=compact)](https://scp1337.github.io)
 
