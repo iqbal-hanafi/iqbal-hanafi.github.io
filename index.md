@@ -6,7 +6,7 @@ layout: default
 
 ## Welcome 👏
 
-Hy I'm <strong>Muhammad Iqbal Hanafi</strong> [![Follow](https://img.shields.io/twitter/follow/espadrine.svg?label=Follow)](https://twitter.com/0xscp1337) Was born in West Sulawesi, Indonesia on 2004 and now I'm studying at a university at West Sulawesi (UNSULBAR) by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT :'v
+Hy I'm <strong>Muhammad Iqbal Hanafi</strong> [![Follow](https://img.shields.io/twitter/follow/espadrine.svg?label=Follow)](https://twitter.com/0xscp1337) Was born in West Celebes, Indonesia on 2004 and now I'm studying at a university at West Celebes by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT :'v
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=scp1337&theme=coder&layout=compact)](https://scp1337.github.io)
 
