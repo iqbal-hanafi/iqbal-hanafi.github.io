@@ -12,6 +12,4 @@ Hy I'm Muhammad Iqbal Hanafi I was born in Majene, West Sulawesi, Indonesia on A
 
 ### Donate
 + [Paypal](https://paypal.me/ikbalRdmc)
-+ Crypto: 0x133757c744ADbbC411A90Ec2BA7CdF6DEBC512E6
-
-[Instagram](https://www.instagram.com/ikbal.rdmc__)
++ Crypto: `0x133757c744ADbbC411A90Ec2BA7CdF6DEBC512E6`
