@@ -20,6 +20,6 @@ Give a star if you like it ⭐✨
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=scp1337&theme=buefy&repo=Qur-an)](https://github.com/scp1337/Qur-an)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=scp1337&theme=buefy&repo=siakad-absen-notify)](https://github.com/scp1337/siakad-absen-notify)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=scp1337&theme=buefy&repo=siakad-abzen-notify)](https://github.com/scp1337/siakad-abzen-notify)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=scp1337&theme=buefy&repo=AntiBadut)](https://github.com/scp1337/AntiBadut)
