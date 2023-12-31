@@ -5,33 +5,6 @@ layout: page
 permalink: /projects
 
 ---
-{% highlight python %}
-                           ,--.
-                          {    }
-                          K,   }
-                         /  `Y`
-                    _   /   /
-                   {_'-K.__/
-                     `/-.__L._
-                     /  ' /`\_}
-                    /  ' / 
-            ____   /  ' /
-     ,-'~~~~    ~~/  ' /_
-   ,'             ``~~~%%',
-  (                     %  Y
- {                      %% I
-{      -                 %  `.
-|       ',                %  )
-|        |   ,..__      __. Y
-|    .,_./  Y ' / ^Y   J   )|
-\           |' /   |   |   ||
- \          L_/    . _ (_,.'(
-  \,   ,      ^^""' / |      )
-    \_  \          /,L]     /
-      '-_`-,       ` `   ./`
-         `-(_            )
-             ^^\..___,.--`
-{% endhighlight %}
 # My little project's
 
 Give a star if you like it.
