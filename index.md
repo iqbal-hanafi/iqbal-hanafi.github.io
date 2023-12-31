@@ -19,14 +19,12 @@ while (true) {
 }
 
 {% endhighlight %}
-  
-
 
 # Hallo Bro 💀
-<strong>Muh Iqbal H</strong> adalah seorang mahasiswa Teknik Sipil di Universitas Sulawesi Barat pribadi yang suka akan tentang hal - hal baru, ambisius dan kreativ dibidangnya.
+<strong>Muh Iqbal H</strong> adalah seorang mahasiswa Teknik Sipil di Universitas Sulawesi Barat, pribadi yang suka akan hal - hal baru, ambisius dan kreativ dibidangnya.
 
 # Riwayat Hidup
-Kelahiran bulan April tahun 2004 di Majene, Sulawesi Barat, Desa Adolang Dhua, sejak kecil sudah hidup dilingkungan masyarakat pedesaan, yang sudah melalui jaman peralihan teknologi pesat dan mental healt Gen Z.
+Kelahiran bulan April tahun 2004 di Majene - Sulawesi Barat, sejak kecil sudah hidup dilingkungan masyarakat pedesaan dan sudah melalui beberapa jaman peralihan seperti perkembangan teknologi pesat dan mental healt Gen Z.
 
 # Pendidikan
 - SD INPRES 32 MONGEARE (2009 - 2015)
