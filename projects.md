@@ -22,7 +22,7 @@ Give a star if you like it.
 - [Ethereum](https://etherscan.io/address/0x133757c744ADbbC411A90Ec2BA7CdF6DEBC512E6)
 
 
-{% highlight %}
+{% highlight bash %}
                            ,--.
                           {    }
                           K,   }
@@ -47,5 +47,5 @@ Give a star if you like it.
     \_  \          /,L]     /
       '-_`-,       ` `   ./`
          `-(_            )
-             ^^\..___,.--`
+             ^^\..___,.--` TEKNIK
 {% endhighlight %}
