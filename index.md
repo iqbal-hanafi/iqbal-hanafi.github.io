@@ -4,7 +4,9 @@ title: /home
 permalink: /
 ---
 {% highlight javascript %}
-Person Iqbal = new Person().form(Mother, Father).from(Muhammad).from(Allah)
+Person Iqbal = new Person().form(Mother, Father)
+                           .from(Muhammad)
+                           .from(Allah)
 while (true) {
   Iqbal.worship()
   Iqbal.work()
