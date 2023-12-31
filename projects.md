@@ -5,9 +5,7 @@ layout: page
 permalink: /projects
 
 ---
-# My little project's
-
-Give a star if you like it.
+# Daftar karya 
 - [Doginer](https://github.com/iqbal-hanafi/Doginer)
 - [BotFucek](https://github.com/iqbal-hanafi/BotFucek)
 - [AutoSnakeGame](https://github.com/iqbal-hanafi/AutoSnakeGame)
