@@ -4,8 +4,36 @@ title: /
 permalink: /
 ---
 
-{% highlight javascript %}
 
+{% highlight bash %}
+                           ,--.
+                          {    }
+                          K,   }
+                         /  `Y`
+                    _   /   /
+                   {_'-K.__/
+                     `/-.__L._
+                     /  ' /`\_}
+                    /  ' / 
+            ____   /  ' /
+     ,-'~~~~    ~~/  ' /_
+   ,'             ``~~~%%',
+  (                     %  Y
+ {                      %% I
+{      -                 %  `.
+|       ',                %  )
+|        |   ,..__      __. Y
+|    .,_./  Y ' / ^Y   J   )|
+\           |' /   |   |   ||
+ \          L_/    . _ (_,.'(
+  \,   ,      ^^""' / |      )
+    \_  \          /,L]     /
+      '-_`-,       ` `   ./`
+         `-(_            )
+             ^^\..___,.--`
+{% endhighlight %}
+
+{% highlight javascript %}
 Person Iqbal = new Person().form(Mother, Father)
 while (true) {
   Iqbal.work()
@@ -17,11 +45,10 @@ while (true) {
       break
   }
 }
-
 {% endhighlight %}
 
 # About
-<strong>Muh Iqbal H</strong> adalah seorang mahasiswa Teknik Sipil di Universitas Sulawesi Barat, pribadi yang suka akan hal - hal baru, ambisius dan kreativ dibidangnya.
+Muh Iqbal H adalah seorang mahasiswa Teknik Sipil di Universitas Sulawesi Barat, pribadi yang suka akan hal - hal baru, ambisius dan kreativ dibidangnya.
 
 # Motto
 Hablum minallah, Hablum minannas dan Hablum minal'alam
@@ -33,37 +60,3 @@ Kelahiran bulan April tahun 2004 di Majene - Sulawesi Barat, sejak kecil sudah h
 - SD INPRES 32 MONGEARE (2009 - 2015)
 - SMP NEGERI 5 PAMBOANG (2015 - 2018)
 - SMK NEGERI 5 MAJENE (2018 - 2021)
-
-{% highlight bash %}
-.7
-            .'/
-           / /
-          / /
-         / /
-        / /
-       / /
-      / /
-     / /         
-    / /          
-  __|/
-,-\__\
-|f-"Y\|
-\()7L/
- cgD                            __ _
- |\(                          .'  Y '>,
-  \ \                        / _   _   \
-   \\\                       )(_) (_)(|}
-    \\\                      {  4A   } /
-     \\\                      \uLuJJ/\l
-      \\\                     |3    p)/
-       \\\___ __________      /nnm_n//
-       c7___-__,__-)\,__)(".  \_>-<_/D
-                  //V     \_"-._.__G G_c__.-__<"/ ( \
-                         <"-._>__-,G_.___)\   \7\
-                        ("-.__.| \"<.__.-" )   \ \
-                        |"-.__"\  |"-.__.-".\   \ \
-                        ("-.__"". \"-.__.-".|    \_\
-                        \"-.__""|!|"-.__.-".)     \ \
-                         "-.__""\_|"-.__.-"./      \ l
-                          ".__""">G>-.__.-">       .--,_
-{% endhighlight %}
