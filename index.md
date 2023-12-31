@@ -6,12 +6,13 @@ permalink: /
 {% highlight javascript %}
 Person Iqbal = new Person().form(Mother, Father)
 while (true) {
+  Iqbal.worship()
   Iqbal.work()
   Iqbal.Rest()
   Iqbal.GetHappines()
 
   if(Iqbal.isDie(){
-      Iqbal.returnToAllah("Semoga Khusnul Khatimah")
+      Iqbal.returnToAllah("Khusnul Khatimah")
       break
   }
 }
