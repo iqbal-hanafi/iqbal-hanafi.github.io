@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: home
+title: /
+permalink: /
 ---
 
-[Projects](./projects.html)
-
-## Welcome 👏
+# Hallo 💀
 
 Hy I'm <strong>Muhammad Iqbal Hanafi</strong> Was born in West Celebes, Indonesia on 2004 and now I'm studying at a university at West Celebes by majoring in CIVIL ENGINEERING, I like IT but not majoring in IT :'v
 
