@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: projek
+title: /projects
+permalink: /projects
 ---
-
-[About Me](./)
 
 ## My little projects ⚙️
 
