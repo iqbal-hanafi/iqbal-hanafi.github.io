@@ -1,4 +1,16 @@
-theme: jekyll-theme-architect
-title: Maoundis
-description: newbie programmer
-author: contact@maoundis.com
+title: 'Muhammad Iqbal Hanafi'
+description: "Hanya Manusia Biasa"
+baseurl: "/"
+url: "https://iqbal-hanafi.github.io"
+
+header_pages:
+  - index.md
+  - projects.md
+
+style: hacker
+
+footer: 'follow us on <a href="https://ig.me/ikbal.rdmc__">instagram</a>'
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
