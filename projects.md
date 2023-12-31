@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[About Me](./) | [Tools](https://tools.iqbal-hanafi.com) | [Blog](https://blog.iqbal-hanafi.com)
+[About Me](./)
 
 ## My little projects ⚙️
 
