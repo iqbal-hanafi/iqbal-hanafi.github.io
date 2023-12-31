@@ -6,22 +6,27 @@ permalink: /projects
 
 ---
 
-## My little projects ⚙️
+# My Little Projects ⚙️
 
-Give a star if you like it ⭐✨
+Give a star if you like it.
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=Doginer)](https://github.com/iqbal-hanafi/Doginer)
+- [Doginer](https://github.com/iqbal-hanafi/Doginer)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=BotFucek)](https://github.com/iqbal-hanafi/BotFucek)
+- [BotFucek](https://github.com/iqbal-hanafi/BotFucek)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=AutoSnakeGame)](https://github.com/iqbal-hanafi/AutoSnakeGame)
+- [AutoSnakeGame](https://github.com/iqbal-hanafi/AutoSnakeGame)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=PrivmyFile)](https://github.com/iqbal-hanafi/PrivmyFile)
+- [PrivmyFile](https://github.com/iqbal-hanafi/PrivmyFile)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=MathQuiz)](https://github.com/iqbal-hanafi/MathQuiz)
+- [MathQuiz](https://github.com/iqbal-hanafi/MathQuiz)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=Qur-an)](https://github.com/iqbal-hanafi/Qur-an)
+- [Qur-an](https://github.com/iqbal-hanafi/Qur-an)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=siakad-abzen-notify)](https://github.com/iqbal-hanafi/siakad-abzen-notify)
+- [Siakad Absen Notify](https://github.com/iqbal-hanafi/siakad-abzen-notify)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=iqbal-hanafi&theme=buefy&repo=AntiBadut)](https://github.com/iqbal-hanafi/AntiBadut)
+- [Anti Badut](https://github.com/iqbal-hanafi/AntiBadut)
+
+# Tip
+- [PayPal](https://paypal.me/ikbalRdmc)
+- [Ethereum](https://etherscan.io/address/0x133757c744ADbbC411A90Ec2BA7CdF6DEBC512E6)
+
