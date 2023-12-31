@@ -5,7 +5,7 @@ layout: page
 permalink: /projects
 
 ---
-# Daftar karya 
+# DAFTAR KARYA 
 - [Doginer](https://github.com/iqbal-hanafi/Doginer)
 - [BotFucek](https://github.com/iqbal-hanafi/BotFucek)
 - [AutoSnakeGame](https://github.com/iqbal-hanafi/AutoSnakeGame)
@@ -15,6 +15,6 @@ permalink: /projects
 - [Siakad Absen Notify](https://github.com/iqbal-hanafi/siakad-abzen-notify)
 - [Anti Badut](https://github.com/iqbal-hanafi/AntiBadut)
 
-# Tip
+# TIP
 - [PayPal](https://paypal.me/ikbalRdmc)
 - [Ethereum](https://etherscan.io/address/0x133757c744ADbbC411A90Ec2BA7CdF6DEBC512E6)
