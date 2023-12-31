@@ -3,36 +3,6 @@ layout: home
 title: /
 permalink: /
 ---
-
-
-{% highlight bash %}
-                           ,--.
-                          {    }
-                          K,   }
-                         /  `Y`
-                    _   /   /
-                   {_'-K.__/
-                     `/-.__L._
-                     /  ' /`\_}
-                    /  ' / 
-            ____   /  ' /
-     ,-'~~~~    ~~/  ' /_
-   ,'             ``~~~%%',
-  (                     %  Y
- {                      %% I
-{      -                 %  `.
-|       ',                %  )
-|        |   ,..__      __. Y
-|    .,_./  Y ' / ^Y   J   )|
-\           |' /   |   |   ||
- \          L_/    . _ (_,.'(
-  \,   ,      ^^""' / |      )
-    \_  \          /,L]     /
-      '-_`-,       ` `   ./`
-         `-(_            )
-             ^^\..___,.--`
-{% endhighlight %}
-
 {% highlight javascript %}
 Person Iqbal = new Person().form(Mother, Father)
 while (true) {
@@ -48,7 +18,7 @@ while (true) {
 {% endhighlight %}
 
 # About
-Muh Iqbal H adalah seorang mahasiswa Teknik Sipil di Universitas Sulawesi Barat, pribadi yang suka akan hal - hal baru, ambisius dan kreativ dibidangnya.
+Muh Iqbal H, adalah seorang mahasiswa Teknik Sipil di Universitas Sulawesi Barat, pribadi yang suka akan hal - hal baru, ambisius dan kreativ dibidangnya.
 
 # Motto
 Hablum minallah, Hablum minannas dan Hablum minal'alam
