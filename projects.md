@@ -1,7 +1,9 @@
 ---
-layout: projek
+
 title: /projects
+layout: projects
 permalink: /projects
+
 ---
 
 ## My little projects ⚙️
