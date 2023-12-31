@@ -3,24 +3,6 @@ layout: home
 title: /home
 permalink: /
 ---
-{% highlight bash %}
-          ____________
-     ,-'               `_
-   ,'             ``~~~%%',
-  (                     %  Y
- {                      %% I
-{      -                 %  `.
-|       ',                %  )
-|        |   ,..__      __. Y
-|    .,_./  Y ' / ^Y   J   )|
-\           |' /   |   |   ||
- \          L_/    . _ (_,.'(
-  \,   ,      ^^""' / |      )
-    \_  \          /,L]     /
-      '-_`-,       ` `   ./`
-         `-(_            )   TEKNIK
-             ^^\..___,.--`
-{% endhighlight %}
 {% highlight javascript %}
 Person Iqbal = new Person().form(Mother, Father)
 while (true) {
