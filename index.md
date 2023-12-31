@@ -4,14 +4,14 @@ title: /home
 permalink: /
 ---
 {% highlight javascript %}
-Person Iqbal = new Person().form(Mother, Father)
+Person Iqbal = new Person().form(Mother, Father).from(Muhammad).from(Allah)
 while (true) {
   Iqbal.worship()
   Iqbal.work()
   Iqbal.Rest()
   Iqbal.GetHappines()
 
-  if(Iqbal.isDie(){
+  if(Iqbal.isDie()){
       Iqbal.returnToAllah("Khusnul Khatimah")
       break
   }
