@@ -9,6 +9,7 @@ header_pages:
 
 style: dark
 
+listen_for_clients_preferred_style: true
 footer: 'follow us on <a href="https://ig.me/ikbal.rdmc__">instagram</a>'
 
 # Build settings
