@@ -1,11 +1,10 @@
 ---
 
-title: /projects
+title: /karya
 layout: page
 permalink: /projects
 
 ---
-
 {% highlight python %}
                            ,--.
                           {    }
@@ -33,7 +32,7 @@ permalink: /projects
          `-(_            )
              ^^\..___,.--`
 {% endhighlight %}
-# My Little Projects ⚙️
+# My little project's
 
 Give a star if you like it.
 - [Doginer](https://github.com/iqbal-hanafi/Doginer)
