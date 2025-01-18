@@ -27,7 +27,7 @@ while (true) {
 <p style="text-align:right">Hablum minallah, Hablum minannas dan Hablum minal'alam</p>
 
 # RIWAYAT HIDUP
-<p style="text-align:right">Kelahiran bulan April tahun 2004 di Majene - Sulawesi Barat, sejak kecil sudah hidup dilingkungan masyarakat pedesaan dan sudah melalui beberapa jaman peralihan seperti perkembangan teknologi pesat dan mental healt Gen Z.</p>
+<p style="text-align:right">Kelahiran di Majene - Sulawesi Barat, sejak kecil sudah hidup dilingkungan masyarakat pedesaan dan sudah melalui beberapa jaman peralihan seperti perkembangan teknologi pesat dan mental healt Gen Z.</p>
 
 # PENDIDIKAN
 - SD INPRES 32 MONGEARE (2009 - 2015)
