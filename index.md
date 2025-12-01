@@ -1,12 +1,12 @@
 ---
 layout: home
-title: MUH. IQBAL H, S.T.
+title: /home
 permalink: /
 ---
 <html>
 <head>
-<meta property="og:image" content="https://iqbal-hanafi.github.io/WKD06797.JPG" />
-
+  <meta property="og:title" content="MUH IQBAL H, S.T." />
+  <meta property="og:image" content="https://iqbal-hanafi.github.io/WKD06797.JPG" />
 </head>
 <body>
 {% highlight javascript %}
