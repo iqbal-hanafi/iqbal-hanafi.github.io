@@ -1,5 +1,6 @@
 ---
 layout: home
+image: /WKD06797.JPG
 title: /home
 permalink: /
 ---
