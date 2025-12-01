@@ -1,5 +1,6 @@
 ---
 layout: home
+title: /profil
 image: /WKD06797.JPG
 permalink: /
 ---
