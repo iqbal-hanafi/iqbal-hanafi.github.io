@@ -1,11 +1,14 @@
 ---
 layout: home
-title: /home
+title: MUH. IQBAL H, S.T.
 permalink: /
 ---
+<html>
+<head>
+<meta property="og:image" content="https://iqbal-hanafi.github.io/me.jpg" />
 
-<meta property="og:image" content="https://instagram.fupg7-1.fna.fbcdn.net/v/t51.2885-19/451382762_903104581831534_1751950829303011005_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fupg7-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2QFjZmSDE3-SVF7L7fJGao1ePvpr-_0yPaS70rYruWPpodAy_L7kTBmNTiI-8cIe6OE&_nc_ohc=KouopK1vCKoQ7kNvwEkn1Kl&_nc_gid=VM9Tslb1zUODHhoJrTGLxw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfQzpIMro0_WwucEQT72P_uFH8i6qF96mzR7kvHBzgjIxg&oe=68883139&_nc_sid=8b3546.jpg" />
-
+</head>
+<body>
 {% highlight javascript %}
 Person Iqbal = new Person().form(Mother, Father)
                            .from(Muhammad)
@@ -37,3 +40,5 @@ while (true) {
 - SMP NEGERI 5 PAMBOANG (2015 - 2018)
 - SMK NEGERI 5 MAJENE   (2018 - 2021)
 - TEKNIK SIPIL - UNSULBAR (2021 - 2025)
+</body>
+</html>
