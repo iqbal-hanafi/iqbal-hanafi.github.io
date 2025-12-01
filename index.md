@@ -5,7 +5,7 @@ permalink: /
 ---
 <html>
 <head>
-<meta property="og:image" content="https://iqbal-hanafi.github.io/me.jpg" />
+<meta property="og:image" content="https://iqbal-hanafi.github.io/WKD06797.JPG" />
 
 </head>
 <body>
