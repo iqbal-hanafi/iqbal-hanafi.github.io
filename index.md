@@ -24,7 +24,7 @@ while (true) {
 {% endhighlight %}
 
 # ABOUT
-<p style="text-align:right">Muh Iqbal H, adalah seorang mahasiswa Teknik Sipil di Universitas Sulawesi Barat, pribadi yang suka akan hal - hal baru, ambisius dan kreativ dibidangnya.</p>
+<p style="text-align:right">MUH. IQBAL H, S.T., adalah seorang lulusan Teknik Sipil di Universitas Sulawesi Barat, pribadi yang suka akan hal - hal baru, ambisius dan kreativ dibidangnya.</p>
 
 # MOTTO
 <p style="text-align:right">Hablum minallah, Hablum minannas dan Hablum minal'alam</p>
@@ -36,4 +36,4 @@ while (true) {
 - SD INPRES 32 MONGEARE (2009 - 2015)
 - SMP NEGERI 5 PAMBOANG (2015 - 2018)
 - SMK NEGERI 5 MAJENE   (2018 - 2021)
-
+- TEKNIK SIPIL - UNSULBAR (2021 - 2025)
