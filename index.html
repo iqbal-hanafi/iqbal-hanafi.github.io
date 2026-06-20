@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="id"><head><script src="/_sdk/telemetry_sdk.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Muh Iqbal Hanafi, S.T.</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --dark:#17171C;
+      --ink:#1E3C2B;
+      --cream:#F0E3D3;
+      --paper:#FFFDF8;
+      --sage:#AFC8AE;
+      --blue:#2E87F6;
+      --orange:#F35C2B;
+      --sand:#D3A474;
+      --muted:#7C857C;
+      --line:rgba(30,60,43,.14);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;width:100%;font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper)}
+    .app-shell{width:100%;min-height:calc(100 * min(var(--vh, 1vh), 1vh));display:grid;grid-template-columns:250px minmax(0,1fr);background:var(--paper)}
+    .sidebar{position:sticky;top:0;height:calc(100 * min(var(--vh, 1vh), 1vh));background:var(--dark);color:#fff;padding:30px 24px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+    .sidebar::after{content:"";position:absolute;right:-35px;bottom:65px;width:110px;height:110px;border:1px solid rgba(255,255,255,.12);transform:rotate(18deg)}
+    .brand{position:relative;z-index:1}
+    .brand-mark{width:52px;height:52px;border:1px solid rgba(255,255,255,.24);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-size:19px;font-weight:700;margin-bottom:28px}
+    .brand-copy{font-size:10px;line-height:1.7;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.62);max-width:155px;white-space:pre-line}
+    .side-nav{display:grid;gap:14px;margin-top:42px}
+    .side-link{display:flex;align-items:center;gap:10px;color:rgba(255,255,255,.46);text-decoration:none;text-transform:uppercase;letter-spacing:.18em;font-size:9px;font-weight:700;transition:.3s ease}
+    .side-link::before{content:"";width:0;height:1px;background:var(--sage);transition:.3s ease}
+    .side-link:hover,.side-link.active{color:#fff}
+    .side-link:hover::before,.side-link.active::before{width:18px}
+    .side-bottom{position:relative;z-index:1;display:grid;gap:8px}
+    .side-small{font-size:9px;text-transform:uppercase;letter-spacing:.18em;color:rgba(255,255,255,.42)}
+    .side-value{font-size:12px;line-height:1.5;color:#fff;white-space:pre-line}
+    .main-content{width:100%;overflow:hidden}
+    .section{position:relative;padding:92px 7vw;border-bottom:1px solid var(--line);background:var(--paper)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:10px;font-weight:700;color:var(--orange);margin-bottom:18px}
+    .display{font-family:'Fraunces',serif;margin:0;line-height:1.02;color:var(--ink)}
+    .body-copy{color:#6B746D;font-size:15px;line-height:1.8}
+    .hero{min-height:calc(100 * min(var(--vh, 1vh), 1vh));display:grid;grid-template-columns:1.04fr .96fr;gap:56px;align-items:center;background:linear-gradient(90deg, #8B2E1F 0%, #6B1f1a 50%, rgba(255,253,248,.88) 100%);overflow:hidden}
+    .hero::before{content:"";position:absolute;right:-100px;top:11%;width:330px;height:330px;border:1px solid rgba(255,255,255,.08);border-radius:50%}
+    .hero::after{content:"";position:absolute;right:8%;bottom:8%;width:92px;height:92px;background:var(--ink);opacity:.85;clip-path:polygon(0 0,100% 0,100% 100%)}
+    .hero-inner{position:relative;z-index:2}
+    .hero-title{font-size:72px;max-width:720px;white-space:pre-line;color:#fff}
+    .hero-copy{max-width:585px;margin-top:24px;color:#F0DDD4}
+    .hero-actions{display:flex;align-items:center;gap:16px;margin-top:34px;flex-wrap:wrap}
+    .button-primary,.button-secondary{display:inline-flex;align-items:center;gap:9px;text-decoration:none;text-transform:uppercase;letter-spacing:.14em;font-size:10px;font-weight:700;padding:14px 18px;transition:.3s ease}
+    .button-primary{background:#F0DDD4;color:#6B1f1a}
+    .button-primary:hover,.button-primary:focus-visible{background:#fff;transform:translateY(-2px);outline:none;color:#5a1a16}
+    .button-secondary{color:#F0DDD4;border:1px solid rgba(240,221,212,.4);background:rgba(255,255,255,.12)}
+    .button-secondary:hover,.button-secondary:focus-visible{border-color:#fff;background:rgba(255,255,255,.2);transform:translateY(-2px);outline:none}
+    .hero-status{margin-top:28px;display:flex;align-items:center;gap:10px;font-size:10px;text-transform:uppercase;letter-spacing:.15em;font-weight:700;color:#D9C8BB}
+    .hero-status::before{content:"";width:8px;height:8px;border-radius:999px;background:#F0DDD4;box-shadow:0 0 0 5px rgba(240,221,212,.22)}
+    .visual-wrap{position:relative;z-index:2;width:min(400px,90%);margin-left:auto;animation:floaty 5s ease-in-out infinite}
+    .visual-frame{position:relative;background:transparent;padding:0;box-shadow:none}
+    .visual-frame::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(135deg, rgba(139,46,31,.3) 0%, rgba(107,31,26,.15) 50%, transparent 100%);pointer-events:none;z-index:2}
+    .visual-frame::after{content:"";display:none}
+    .visual-frame img{position:relative;z-index:1;width:100%;aspect-ratio:4/5;object-fit:cover;display:block;filter:saturate(1.05) contrast(1.08) brightness(.98);border-radius:3px;clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%)}
+    .photo-note{position:absolute;right:16px;bottom:20px;z-index:3;background:rgba(23,23,28,.92);padding:14px 16px;max-width:160px;box-shadow:0 12px 28px rgba(0,0,0,.25);border-radius:2px;backdrop-filter:blur(4px)}
+    @media (max-width:800px){.photo-note{position:relative;margin-top:16px;right:auto;bottom:auto;background:rgba(23,23,28,.88);max-width:100%}}
+    .photo-note strong{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.16em;color:#f0e3d3;margin-bottom:5px}
+    .photo-note span{font-size:11px;line-height:1.5;color:#d4d7d1}
+    .about{background:#F7F4EC}
+    .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:72px;align-items:start}
+    .section-title{font-size:54px;max-width:620px}
+    .about-copy{max-width:680px;margin-top:6px}
+    .value-grid{margin-top:34px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .value-card{padding:22px 18px;border:1px solid rgba(30,60,43,.11);background:rgba(255,255,255,.45);transition:.3s ease}
+    .value-card:hover{transform:translateY(-5px);border-color:rgba(30,60,43,.22);background:#fff}
+    .value-icon{width:34px;height:34px;display:flex;align-items:center;justify-content:center;background:var(--cream);color:var(--ink);margin-bottom:18px}
+    .value-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--ink);margin-bottom:8px}
+    .value-copy{font-size:12px;line-height:1.6;color:#6E796F}
+    .section-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:44px}
+    .section-note{max-width:330px;font-size:12px;color:#7B857E;line-height:1.7}
+    .timeline{border-top:1px solid var(--line)}
+    .timeline-row{display:grid;grid-template-columns:130px 1fr 1.25fr;gap:28px;padding:26px 0;border-bottom:1px solid var(--line);transition:.3s ease}
+    .timeline-row:hover{padding-left:10px}
+    .timeline-year{color:var(--orange);text-transform:uppercase;letter-spacing:.16em;font-size:10px;font-weight:700}
+    .timeline-role{font-size:18px;font-weight:700;color:var(--ink);margin-bottom:6px}
+    .timeline-place{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:#8A958D;font-weight:700}
+    .timeline-desc{font-size:13px;line-height:1.7;color:#69756D}
+    .skills{background:var(--dark);color:#fff}
+    .skills .display,.skills .section-title{color:#F8F4EC}
+    .skills .section-note{color:rgba(255,255,255,.52)}
+    .skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .skill-card{background:#202127;border:1px solid rgba(255,255,255,.08);padding:22px;min-height:160px;position:relative;overflow:hidden;transition:.3s ease}
+    .skill-card::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--blue);transition:1s ease}
+    .skill-card.revealed::after{width:var(--bar)}
+    .skill-card:hover{transform:translateY(-5px);border-color:rgba(255,255,255,.18)}
+    .skill-number{font-size:10px;color:var(--sand);letter-spacing:.16em;font-weight:700;margin-bottom:26px}
+    .skill-name{font-size:16px;font-weight:700;color:#fff;margin-bottom:8px}
+    .skill-type{font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:rgba(255,255,255,.42)}
+    .projects{background:#F8F5EE}
+    .project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+    .project-card{min-height:330px;padding:26px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative;transition:.35s ease;text-decoration:none}
+    .project-card:hover{transform:translateY(-6px)}
+    .project-card::after{content:"";position:absolute;right:-38px;bottom:-38px;width:120px;height:120px;border:1px solid currentColor;opacity:.22;transform:rotate(20deg)}
+    .project-card-one{background:var(--ink);color:#fff}
+    .project-card-two{background:var(--cream);color:var(--ink)}
+    .project-card-three{background:#EAF0E6;color:var(--ink)}
+    .project-card-four{background:#1F2C45;color:#fff}
+    .project-no{font-size:10px;text-transform:uppercase;letter-spacing:.17em;font-weight:700;opacity:.72}
+    .project-title{font-family:'Fraunces',serif;font-size:29px;line-height:1.08;max-width:380px;margin-bottom:14px}
+    .project-copy{font-size:12px;line-height:1.65;max-width:410px;opacity:.82;margin-bottom:18px}
+    .project-meta{font-size:10px;text-transform:uppercase;letter-spacing:.15em;font-weight:700;opacity:.72}
+    .project-link{display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-size:10px;text-transform:uppercase;letter-spacing:.16em;font-weight:700}
+    .note-section{background:var(--blue);color:#fff;padding-top:84px;padding-bottom:84px}
+    .note-wrap{display:grid;grid-template-columns:140px 1fr;gap:30px;align-items:start}
+    .note-index{font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.7)}
+    .note-quote{font-family:'Fraunces',serif;font-size:46px;line-height:1.1;max-width:900px;color:#fff}
+    .contact{background:#FDFBF5;display:grid;grid-template-columns:1fr .9fr;gap:56px;align-items:start}
+    .contact-title{font-size:58px;max-width:560px}
+    .contact-panel{background:var(--dark);color:#fff;padding:30px}
+    .contact-panel-title{font-family:'Fraunces',serif;font-size:32px;line-height:1.1;margin-bottom:28px;color:#fff}
+    .contact-list{display:grid;gap:18px}
+    .contact-row{padding-top:12px;border-top:1px solid rgba(255,255,255,.14)}
+    .contact-label{font-size:9px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.45);margin-bottom:5px}
+    .contact-value{font-size:14px;color:#fff}
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+    .reveal.visible{opacity:1;transform:translateY(0)}
+    @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+
+    @media (max-width:1050px){
+      .app-shell{grid-template-columns:1fr}
+      .sidebar{position:relative;height:auto;padding:20px 24px;flex-direction:row;align-items:center}
+      .brand{display:flex;align-items:center;gap:14px}
+      .brand-mark{margin:0}
+      .brand-copy{max-width:190px;font-size:9px}
+      .side-nav{display:flex;gap:12px;margin:0;flex-wrap:wrap}
+      .side-link{font-size:8px}.side-link::before{display:none}
+      .side-bottom{display:none}
+      .section{padding:78px 6vw}
+      .hero{min-height:auto;padding-top:92px;padding-bottom:92px;gap:40px}
+      .hero-title{font-size:64px}
+      .visual-wrap{width:min(380px,85%)}
+    }
+    @media (max-width:800px){
+      .sidebar{align-items:flex-start;flex-direction:column;gap:18px;padding:16px 20px}
+      .hero,.about-grid,.contact{grid-template-columns:1fr}
+      .hero{gap:32px;padding-top:78px;padding-bottom:78px}
+      .hero-title{font-size:52px}
+      .section{padding:68px 5vw}
+      .visual-wrap{margin:18px 0 0 12px;width:82%}
+      .value-grid,.skill-grid,.project-grid{grid-template-columns:1fr;gap:14px}
+      .section-head{display:block}
+      .section-note{margin-top:12px;max-width:100%}
+      .timeline-row{grid-template-columns:1fr;gap:12px}
+      .note-wrap{grid-template-columns:1fr;gap:18px}
+      .note-quote{font-size:36px}
+      .section-title,.contact-title{font-size:40px}
+      .project-title{font-size:26px}
+    }
+    @media (max-width:520px){
+      .section{padding:48px 4vw}
+      .hero-title{font-size:42px;line-height:1.08}
+      .section-title,.contact-title,.display{font-size:32px}
+      .project-card{min-height:285px;padding:20px}
+      .project-title{font-size:22px}
+      .note-quote{font-size:28px}
+    }
+  </style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="/_sdk/resizing_sdk.js" type="text/javascript"></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(255, 253, 248);">
+  <div class="app-shell">
+   <aside class="sidebar" aria-label="Navigasi CV">
+    <div class="brand">
+     <div data-template-id="brand-mark" class="brand-mark canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">IH</div>
+     <div data-template-id="sidebar-role" class="brand-copy canva-text" style="color: rgb(216, 221, 215); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.18rem; line-height: 1.7;">MUH IQBAL H
+Teknik Sipil + Pemrograman</div>
+    </div>
+    <nav class="side-nav" aria-label="Navigasi utama"><a href="#home" class="side-link active" data-nav="home">Home</a> <a href="#about" class="side-link" data-nav="about">About</a> <a href="#journey" class="side-link" data-nav="journey">Journey</a> <a href="#skills" class="side-link" data-nav="skills">Skills</a> <a href="#works" class="side-link" data-nav="works">Works</a> <a href="#contact" class="side-link" data-nav="contact">Contact</a>
+    </nav>
+    <div class="side-bottom">
+     <div data-template-id="sidebar-bottom-label" class="side-small canva-text" style="color: rgb(143, 149, 143); font-weight: 700; font-style: normal; font-size: 9px; letter-spacing: 0.18rem;">Currently</div>
+     <div data-template-id="sidebar-bottom-value" class="side-value canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.5;">Fresh Graduate 2025
+Active in Programming</div>
+    </div>
+   </aside>
+   <main class="main-content">
+    <section id="home" class="section hero">
+     <div class="hero-inner reveal">
+      <div data-template-id="hero-eyebrow" class="eyebrow canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.2rem;">Portfolio / Teknik Sipil + Pemrograman</div>
+      <h1 data-template-id="hero-title" class="display hero-title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 72px; line-height: 1.02;">Berangkat dari teknik.
+Tumbuh lewat rasa ingin tahu.</h1>
+      <p data-template-id="hero-copy" class="body-copy hero-copy canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.8;">Saya Muh Iqbal H, S.T., lulusan Teknik Sipil yang sedang membangun langkah awal karier dengan bekal pola pikir terstruktur, kemauan belajar, dan ketertarikan pada dunia digital.</p>
+      <div class="hero-actions"><a href="#journey" data-template-id="hero-primary-button" class="button-primary canva-button" style="background: rgb(255, 255, 255); color: rgb(107, 31, 26); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.14rem;">Lihat Perjalanan</a> <a href="#contact" data-template-id="hero-secondary-button" class="button-secondary canva-button" style="background: rgba(255, 255, 255, 0.15); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.14rem;">Hubungi Saya</a>
+      </div>
+      <div data-template-id="hero-status" class="hero-status canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Fresh graduate, steady learner, open to grow</div>
+     </div>
+     <div class="visual-wrap reveal" style="transition-delay:.15s">
+      <div class="visual-frame"><img data-template-id="profile-photo" class="canva-image" loading="lazy" src="https://raw.githubusercontent.com/iqbal-hanafi/iqbal-hanafi.github.io/refs/heads/main/Screenshot_20260526_160408_Instagram.png" alt="Muh Iqbal Hanafi formal portrait">
+       <div class="photo-note"><strong data-template-id="photo-note-title" class="canva-text" style="color: rgb(240, 227, 211); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Selalu ingin berkembang</strong> <span data-template-id="photo-note-copy" class="canva-text" style="color: rgb(212, 215, 209); font-weight: 400; font-style: normal; font-size: 11px; line-height: 1.5;">Menyukai proses, perjalanan, dan sudut pandang baru.</span>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="about" class="section about">
+     <div class="about-grid">
+      <div class="reveal">
+       <div data-template-id="about-eyebrow" class="eyebrow canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.2rem;">Tentang Saya</div>
+       <h2 data-template-id="about-title" class="display section-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 54px; line-height: 1.02;">Saya baru mulai, tapi saya yakin ingin jadi orang yang berguna.</h2>
+      </div>
+      <div class="reveal" style="transition-delay:.12s">
+       <p data-template-id="about-copy" class="body-copy about-copy canva-text" style="color: rgb(107, 116, 109); font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.8;">Latar belakang saya berasal dari Teknik Sipil, bidang yang membentuk cara saya berpikir lebih runtut, teliti, dan bertanggung jawab terhadap proses. Di sisi lain, saya juga menekuni pemrograman melalui berbagai project kecil, tools, game, dan eksperimen web yang terus memperluas cara saya belajar dan menyelesaikan masalah.</p>
+       <div class="value-grid">
+        <article class="value-card">
+         <div class="value-icon">
+          <i data-lucide="ruler" style="width:18px;height:18px;"></i>
+         </div>
+         <div data-template-id="value-1-title" class="value-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 13px; letter-spacing: 0.1rem;">Dasar Teknik</div>
+         <div data-template-id="value-1-copy" class="value-copy canva-text" style="color: rgb(110, 121, 111); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.6;">Terbiasa memahami proses dari awal, bekerja rapi, dan melihat detail kecil.</div>
+        </article>
+        <article class="value-card">
+         <div class="value-icon">
+          <i data-lucide="code-2" style="width:18px;height:18px;"></i>
+         </div>
+         <div data-template-id="value-2-title" class="value-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 13px; letter-spacing: 0.1rem;">Penasaran dengan Pemrograman</div>
+         <div data-template-id="value-2-copy" class="value-copy canva-text" style="color: rgb(110, 121, 111); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.6;">Suka mencoba web, automasi, dan cara kerja yang lebih mudah.</div>
+        </article>
+        <article class="value-card">
+         <div class="value-icon">
+          <i data-lucide="sprout" style="width:18px;height:18px;"></i>
+         </div>
+         <div data-template-id="value-3-title" class="value-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 13px; letter-spacing: 0.1rem;">Mau Terus Belajar</div>
+         <div data-template-id="value-3-copy" class="value-copy canva-text" style="color: rgb(110, 121, 111); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.6;">Terbuka pada pengalaman baru, evaluasi, dan proses berkembang.</div>
+        </article>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="journey" class="section">
+     <div class="section-head reveal">
+      <div>
+       <div data-template-id="journey-eyebrow" class="eyebrow canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.2rem;">Perjalanan</div>
+       <h2 data-template-id="journey-title" class="display section-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 54px; line-height: 1.02;">Fondasi saya datang dari teknik, expertise saya berkembang melalui IT.</h2>
+      </div>
+      <p data-template-id="journey-note" class="section-note canva-text" style="color: rgb(123, 133, 126); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.7;">Perjalanan ini belum panjang, tetapi setiap tahap memberi saya bekal untuk melihat pekerjaan dengan lebih terbuka.</p>
+     </div>
+     <div class="timeline reveal" style="transition-delay:.12s">
+      <div class="timeline-row">
+       <div data-template-id="journey-1-year" class="timeline-year canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">2021 — 2025</div>
+       <div>
+        <div data-template-id="journey-1-role" class="timeline-role canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 18px;">Sarjana Teknik Sipil</div>
+        <div data-template-id="journey-1-place" class="timeline-place canva-text" style="color: rgb(138, 149, 141); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.14rem;">Universitas Sulawesi Barat</div>
+       </div>
+       <div data-template-id="journey-1-desc" class="timeline-desc canva-text" style="color: rgb(105, 117, 109); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.7;">Belajar dasar desain, gambar teknik, struktur, dan cara pikir rapi dalam menyelesaikan masalah teknis.</div>
+      </div>
+      <div class="timeline-row">
+       <div data-template-id="journey-2-year" class="timeline-year canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">2018 — Sekarang</div>
+       <div>
+        <div data-template-id="journey-2-role" class="timeline-role canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 18px;">Praktisi Pemrograman &amp; Problem Solver</div>
+        <div data-template-id="journey-2-place" class="timeline-place canva-text" style="color: rgb(138, 149, 141); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.14rem;">Continuous Learning Journey</div>
+       </div>
+       <div data-template-id="journey-2-desc" class="timeline-desc canva-text" style="color: rgb(105, 117, 109); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.7;">Belajar dan menekuni pemrograman melalui praktik langsung, mengerjakan tools, bot, webapp, game, dan berbagai eksperimen mandiri.</div>
+      </div>
+      <div class="timeline-row">
+       <div data-template-id="journey-3-year" class="timeline-year canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">2025 — Sekarang</div>
+       <div>
+        <div data-template-id="journey-3-role" class="timeline-role canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 18px;">Lulusan Baru &amp; Pembelajar Aktif</div>
+        <div data-template-id="journey-3-place" class="timeline-place canva-text" style="color: rgb(138, 149, 141); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.14rem;">Active &amp; Growing</div>
+       </div>
+       <div data-template-id="journey-3-desc" class="timeline-desc canva-text" style="color: rgb(105, 117, 109); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.7;">Siap belajar lebih banyak, berkontribusi dalam tim, dan berkembang di lingkungan yang memberi ruang untuk proses.</div>
+      </div>
+     </div>
+    </section>
+    <section id="skills" class="section skills">
+     <div class="section-head reveal">
+      <div>
+       <div data-template-id="skills-eyebrow" class="eyebrow canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.2rem;">Skill Set</div>
+       <h2 data-template-id="skills-title" class="display section-title canva-text" style="color: rgb(248, 244, 236); font-weight: 700; font-style: normal; font-size: 54px; line-height: 1.02;">Kemampuan saya hari ini, dan terus saya perbaiki untuk besok.</h2>
+      </div>
+      <p data-template-id="skills-note" class="section-note canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.7;">Saya masih belajar, tapi sudah punya dasar yang cukup untuk terus berkembang.</p>
+     </div>
+     <div class="skill-grid">
+      <article class="skill-card reveal" style="--bar:82%">
+       <div data-template-id="skill-1-number" class="skill-number canva-text" style="color: rgb(211, 164, 116); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">01</div>
+       <div data-template-id="skill-1-name" class="skill-name canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">AutoCAD</div>
+       <div data-template-id="skill-1-type" class="skill-type canva-text" style="color: rgb(139, 141, 137); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Technical Drawing</div>
+      </article>
+      <article class="skill-card reveal" style="--bar:76%;transition-delay:.05s">
+       <div data-template-id="skill-2-number" class="skill-number canva-text" style="color: rgb(211, 164, 116); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">02</div>
+       <div data-template-id="skill-2-name" class="skill-name canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Dasar Struktur</div>
+       <div data-template-id="skill-2-type" class="skill-type canva-text" style="color: rgb(139, 141, 137); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Teknik Sipil</div>
+      </article>
+      <article class="skill-card reveal" style="--bar:80%;transition-delay:.1s">
+       <div data-template-id="skill-3-number" class="skill-number canva-text" style="color: rgb(211, 164, 116); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">03</div>
+       <div data-template-id="skill-3-name" class="skill-name canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Microsoft Office</div>
+       <div data-template-id="skill-3-type" class="skill-type canva-text" style="color: rgb(139, 141, 137); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Produktivitas Harian</div>
+      </article>
+      <article class="skill-card reveal" style="--bar:66%;transition-delay:.15s">
+       <div data-template-id="skill-4-number" class="skill-number canva-text" style="color: rgb(211, 164, 116); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">04</div>
+       <div data-template-id="skill-4-name" class="skill-name canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">HTML · CSS · JS</div>
+       <div data-template-id="skill-4-type" class="skill-type canva-text" style="color: rgb(139, 141, 137); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Web Basics</div>
+      </article>
+      <article class="skill-card reveal" style="--bar:64%;transition-delay:.2s">
+       <div data-template-id="skill-5-number" class="skill-number canva-text" style="color: rgb(211, 164, 116); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">05</div>
+       <div data-template-id="skill-5-name" class="skill-name canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Git &amp; GitHub</div>
+       <div data-template-id="skill-5-type" class="skill-type canva-text" style="color: rgb(139, 141, 137); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Version Control</div>
+      </article>
+      <article class="skill-card reveal" style="--bar:74%;transition-delay:.25s">
+       <div data-template-id="skill-6-number" class="skill-number canva-text" style="color: rgb(211, 164, 116); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">06</div>
+       <div data-template-id="skill-6-name" class="skill-name canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Pemecahan Masalah</div>
+       <div data-template-id="skill-6-type" class="skill-type canva-text" style="color: rgb(139, 141, 137); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Core Mindset</div>
+      </article>
+     </div>
+    </section>
+    <section id="works" class="section projects">
+     <div class="section-head reveal">
+      <div>
+       <div data-template-id="works-eyebrow" class="eyebrow canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.2rem;">Proyek &amp; Karya</div>
+       <h2 data-template-id="works-title" class="display section-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 54px; line-height: 1.02;">Project kecil yang menjadi jejak belajar dan rasa ingin tahu saya.</h2>
+      </div>
+      <div>
+       <p data-template-id="works-note" class="section-note canva-text" style="color: rgb(123, 133, 126); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.7;">Kumpulan karya di dunia IT yang saya kerjakan sebagai ruang belajar, eksperimen, dan latihan menyelesaikan masalah lewat teknologi.</p>
+       <p data-template-id="works-additional-note" class="section-note canva-text" style="margin-top: 12px; color: rgb(123, 133, 126); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.7;">Masih banyak karya lainnya, namun bersifat privat sesuai dengan permintaan klien dan kebutuhan proyek.</p>
+      </div>
+     </div>
+     <div class="project-grid"><a href="https://github.com/iqbal-hanafi/Doginer" target="_blank" rel="noopener noreferrer" data-template-id="project-card-1" class="project-card project-card-one canva-card reveal" style="background: rgb(30, 60, 43);">
+       <div data-template-id="project-1-no" class="project-no canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">01 / Doginer</div>
+       <div>
+        <div data-template-id="project-1-title" class="project-title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">Doginer</div>
+        <div data-template-id="project-1-copy" class="project-copy canva-text" style="color: rgb(229, 238, 232); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Aplikasi/utilitas berbasis Python yang dibuat sebagai ruang eksperimen dan latihan automasi sederhana.</div>
+        <div data-template-id="project-1-meta" class="project-meta canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Python · Utility · Experiment</div>
+        <div data-template-id="project-1-link" class="project-link canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a> <a href="https://api.github.com/repos/iqbal-hanafi/BotFucek" target="_blank" rel="noopener noreferrer" data-template-id="project-card-2" class="project-card project-card-two canva-card reveal" style="transition-delay: 0.05s; background: rgb(240, 227, 211);">
+       <div data-template-id="project-2-no" class="project-no canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">02 / BotFucek</div>
+       <div>
+        <div data-template-id="project-2-title" class="project-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">BotFucek</div>
+        <div data-template-id="project-2-copy" class="project-copy canva-text" style="color: rgb(94, 106, 96); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Bot Facebook berbasis Ruby untuk memahami automasi proses, scripting, dan interaksi sistem secara terprogram.</div>
+        <div data-template-id="project-2-meta" class="project-meta canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Ruby · Bot · Automation</div>
+        <div data-template-id="project-2-link" class="project-link canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a> <a href="https://github.com/iqbal-hanafi/AutoSnakeGame" target="_blank" rel="noopener noreferrer" data-template-id="project-card-3" class="project-card project-card-three canva-card reveal" style="transition-delay: 0.1s; background: rgb(234, 240, 230);">
+       <div data-template-id="project-3-no" class="project-no canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">03 / AutoSnakeGame</div>
+       <div>
+        <div data-template-id="project-3-title" class="project-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">AutoSnakeGame</div>
+        <div data-template-id="project-3-copy" class="project-copy canva-text" style="color: rgb(94, 106, 96); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Implementasi permainan Snake otomatis untuk mengeksplorasi logika game, pergerakan, dan algoritma sederhana.</div>
+        <div data-template-id="project-3-meta" class="project-meta canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Game Logic · Algorithm · Simulation</div>
+        <div data-template-id="project-3-link" class="project-link canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a> <a href="https://github.com/iqbal-hanafi/PrivmyFile" target="_blank" rel="noopener noreferrer" data-template-id="project-card-4" class="project-card project-card-four canva-card reveal" style="transition-delay: 0.15s; background: rgb(31, 44, 69);">
+       <div data-template-id="project-4-no" class="project-no canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">04 / PrivmyFile</div>
+       <div>
+        <div data-template-id="project-4-title" class="project-title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">PrivmyFile</div>
+        <div data-template-id="project-4-copy" class="project-copy canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Aplikasi pengamanan file pribadi yang dirancang untuk membantu menjaga privasi dan proteksi berkas penting.</div>
+        <div data-template-id="project-4-meta" class="project-meta canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Security · File Utility · Privacy</div>
+        <div data-template-id="project-4-link" class="project-link canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a> <a href="https://github.com/iqbal-hanafi/MathQuiz" target="_blank" rel="noopener noreferrer" data-template-id="project-card-5" class="project-card project-card-two canva-card reveal" style="transition-delay: 0.2s; background: rgb(240, 227, 211);">
+       <div data-template-id="project-5-no" class="project-no canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">05 / MathQuiz</div>
+       <div>
+        <div data-template-id="project-5-title" class="project-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">MathQuiz</div>
+        <div data-template-id="project-5-copy" class="project-copy canva-text" style="color: rgb(94, 106, 96); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Aplikasi kuis matematika interaktif berbasis Python dan Kivy untuk latihan berhitung dengan pengalaman yang lebih menyenangkan.</div>
+        <div data-template-id="project-5-meta" class="project-meta canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Python · Kivy · Education</div>
+        <div data-template-id="project-5-link" class="project-link canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a> <a href="https://github.com/iqbal-hanafi/Qur-an" target="_blank" rel="noopener noreferrer" data-template-id="project-card-6" class="project-card project-card-one canva-card reveal" style="transition-delay: 0.25s; background: rgb(30, 60, 43);">
+       <div data-template-id="project-6-no" class="project-no canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">06 / Qur-an</div>
+       <div>
+        <div data-template-id="project-6-title" class="project-title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">Qur-an</div>
+        <div data-template-id="project-6-copy" class="project-copy canva-text" style="color: rgb(229, 238, 232); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Aplikasi web Al-Qur'an sederhana berbasis JavaScript untuk menampilkan surat dan ayat dalam antarmuka yang ringkas.</div>
+        <div data-template-id="project-6-meta" class="project-meta canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">JavaScript · Web App · Islamic App</div>
+        <div data-template-id="project-6-link" class="project-link canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a> <a href="https://github.com/iqbal-hanafi/siakad-abzen-notify" target="_blank" rel="noopener noreferrer" data-template-id="project-card-7" class="project-card project-card-four canva-card reveal" style="transition-delay: 0.3s; background: rgb(31, 44, 69);">
+       <div data-template-id="project-7-no" class="project-no canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">07 / Siakad Absen Notify</div>
+       <div>
+        <div data-template-id="project-7-title" class="project-title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">Siakad Absen Notify</div>
+        <div data-template-id="project-7-copy" class="project-copy canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Sistem notifikasi absensi untuk SIAKAD yang membantu memantau perubahan data kehadiran secara lebih cepat.</div>
+        <div data-template-id="project-7-meta" class="project-meta canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Notification · Academic Tool · Automation</div>
+        <div data-template-id="project-7-link" class="project-link canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a> <a href="https://github.com/iqbal-hanafi/AntiBadut" target="_blank" rel="noopener noreferrer" data-template-id="project-card-8" class="project-card project-card-three canva-card reveal" style="transition-delay: 0.35s; background: rgb(234, 240, 230);">
+       <div data-template-id="project-8-no" class="project-no canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.17rem;">08 / Anti Badut</div>
+       <div>
+        <div data-template-id="project-8-title" class="project-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 29px; line-height: 1.08;">Anti Badut</div>
+        <div data-template-id="project-8-copy" class="project-copy canva-text" style="color: rgb(94, 106, 96); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.65;">Tool utilitas yang dibuat untuk kebutuhan filtering, deteksi, dan pengelolaan aktivitas tertentu secara lebih praktis.</div>
+        <div data-template-id="project-8-meta" class="project-meta canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.15rem;">Utility · Filtering · Script</div>
+        <div data-template-id="project-8-link" class="project-link canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.16rem;">Lihat Project ↗</div>
+       </div></a>
+     </div>
+    </section>
+    <section class="section note-section">
+     <div class="note-wrap reveal">
+      <div data-template-id="note-index" class="note-index canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.2rem;">My Philosophy</div>
+      <div data-template-id="note-quote" class="note-quote canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 46px; line-height: 1.1;">Terus belajar, terus tumbuh, dan percaya pada proses.</div>
+     </div>
+    </section>
+    <section id="contact" class="section contact">
+     <div class="reveal">
+      <div data-template-id="contact-eyebrow" class="eyebrow canva-text" style="color: rgb(243, 92, 43); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.2rem;">Contact</div>
+      <h2 data-template-id="contact-title" class="display contact-title canva-text" style="color: rgb(30, 60, 43); font-weight: 700; font-style: normal; font-size: 58px; line-height: 1.02;">Jika ada ruang untuk belajar dan bertumbuh, saya siap memulainya.</h2>
+      <p data-template-id="contact-copy" class="body-copy canva-text" style="margin-top: 22px; max-width: 560px; color: rgb(107, 116, 109); font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.8;">Saya terbuka untuk peluang kerja, kolaborasi, maupun pengalaman baru yang dapat membantu saya berkembang secara profesional dan pribadi.</p>
+     </div>
+     <div data-template-id="contact-panel" class="contact-panel canva-panel reveal" style="transition-delay: 0.12s; background: rgb(23, 23, 28);">
+      <div data-template-id="contact-panel-title" class="contact-panel-title canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 32px; line-height: 1.1;">Let’s connect.</div>
+      <div class="contact-list">
+       <div class="contact-row">
+        <div data-template-id="contact-label-1" class="contact-label canva-text" style="color: rgb(159, 163, 158); font-weight: 700; font-style: normal; font-size: 9px; letter-spacing: 0.18rem;">Email</div>
+        <div data-template-id="contact-value-1" class="contact-value canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 14px;">muhiqbalh1337@email.com</div>
+       </div>
+       <div class="contact-row">
+        <div data-template-id="contact-label-2" class="contact-label canva-text" style="color: rgb(159, 163, 158); font-weight: 700; font-style: normal; font-size: 9px; letter-spacing: 0.18rem;">Based in</div>
+        <div data-template-id="contact-value-2" class="contact-value canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 14px;">Majene, Sulawesi Barat</div>
+       </div>
+       <div class="contact-row">
+        <div data-template-id="contact-label-3" class="contact-label canva-text" style="color: rgb(159, 163, 158); font-weight: 700; font-style: normal; font-size: 9px; letter-spacing: 0.18rem;">Status</div>
+        <div data-template-id="contact-value-3" class="contact-value canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 14px;">Open to Work &amp; Collaboration</div>
+       </div>
+       <div class="contact-row">
+        <div data-template-id="contact-label-4" class="contact-label canva-text" style="color: rgb(159, 163, 158); font-weight: 700; font-style: normal; font-size: 9px; letter-spacing: 0.18rem;">Instagram</div>
+        <div data-template-id="contact-value-4" class="contact-value canva-text" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 14px;">@ikbal.rdmc__</div>
+       </div>
+      </div>
+     </div>
+    </section>
+   </main>
+  </div>
+  <script src="/_sdk/editing_sdk.js"></script>
+  <script>
+    const navLinks = [...document.querySelectorAll('.side-link')];
+    const sections = navLinks.map(link => document.getElementById(link.dataset.nav)).filter(Boolean);
+
+    function updateNav(){
+      let active = sections[0]?.id || 'home';
+      const marker = window.scrollY + 180;
+      sections.forEach(section => {
+        if(section.offsetTop <= marker) active = section.id;
+      });
+      navLinks.forEach(link => link.classList.toggle('active', link.dataset.nav === active));
+    }
+
+    window.addEventListener('scroll', updateNav, {passive:true});
+    updateNav();
+
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+          if(entry.target.classList.contains('skill-card')) entry.target.classList.add('revealed');
+        }
+      });
+    },{threshold:.12});
+
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+    lucide.createIcons();
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0eda75f125a32e2',t:'MTc4MTk4ODcxMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body></html>
